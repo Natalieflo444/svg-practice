@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="title desc">
+  <title id="title">Pelican riding a surfboard</title>
+  <desc id="desc">A cream-white pelican with an orange beak balances on a surfboard riding a wave, wings spread against a blue sky.</desc>
+
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5cb3ea"/>
+      <stop offset="0.55" stop-color="#a8daf6"/>
+      <stop offset="1" stop-color="#e4f4fd"/>
+    </linearGradient>
+
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f8fc9"/>
+      <stop offset="0.5" stop-color="#1c6ba3"/>
+      <stop offset="1" stop-color="#0d3f68"/>
+    </linearGradient>
+
+    <linearGradient id="board" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff6f61"/>
+      <stop offset="0.5" stop-color="#f2493c"/>
+      <stop offset="1" stop-color="#c92f2c"/>
+    </linearGradient>
+
+    <radialGradient id="sunGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff6d0" stop-opacity="0.95"/>
+      <stop offset="0.55" stop-color="#ffe89a" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#ffe89a" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="bodyFill" cx="0.38" cy="0.3" r="0.85">
+      <stop offset="0" stop-color="#fffef9"/>
+      <stop offset="1" stop-color="#e6ddc9"/>
+    </radialGradient>
+  </defs>
+
+  <!-- sky -->
+  <rect width="800" height="600" fill="url(#sky)"/>
+
+  <!-- sun -->
+  <circle cx="662" cy="112" r="150" fill="url(#sunGlow)"/>
+  <circle cx="662" cy="112" r="46" fill="#ffe17a"/>
+  <circle cx="662" cy="112" r="46" fill="none" stroke="#ffce55" stroke-width="3"/>
+
+  <!-- clouds -->
+  <g fill="#ffffff" opacity="0.85">
+    <path d="M70 150c0-20 16-36 36-36 7 0 13 2 19 5 6-17 22-29 41-29 24 0 44 18 46 41 17-3 33 10 33 27H70z"/>
+    <path d="M430 96c0-14 11-25 25-25 5 0 10 2 14 4 5-13 17-22 31-22 18 0 32 13 34 30 12-2 24 8 24 20H430z" opacity="0.7"/>
+  </g>
+
+  <!-- distant hills -->
+  <path d="M0 372c70-30 130-34 196-10 58 21 104 16 150-6 62-30 118-26 178 2 58 27 108 22 156-4 52-28 100-28 120-24v50H0z" fill="#7fb98d" opacity="0.45"/>
+
+  <!-- ocean -->
+  <path d="M0 392c86-14 158 14 244 6 92-9 140-40 232-34 96 6 148 40 236 34 44-3 74-11 88-16v218H0z" fill="url(#sea)"/>
+
+  <!-- wave face -->
+  <path d="M0 470c96-46 178-58 268-40 92 18 168 6 250-26 84-32 178-24 282 22v174H0z" fill="#2e8ecb" opacity="0.55"/>
+
+  <!-- foam line -->
+  <path d="M0 470c96-46 178-58 268-40 92 18 168 6 250-26 84-32 178-24 282 22" fill="none" stroke="#f2fbff" stroke-width="7" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- sun glitter -->
+  <g fill="#ffe9a8" opacity="0.55">
+    <ellipse cx="640" cy="452" rx="46" ry="7"/>
+    <ellipse cx="668" cy="474" rx="58" ry="8"/>
+    <ellipse cx="612" cy="500" rx="40" ry="6"/>
+    <ellipse cx="686" cy="528" rx="62" ry="7"/>
+  </g>
+
+  <!-- surfer -->
+  <g transform="translate(398 398) rotate(-13)">
+
+    <!-- spray behind the board -->
+    <g fill="#ffffff" opacity="0.8">
+      <path d="M-186 6c-34-10-56-30-62-54 20 16 38 22 54 18-12-16-14-34-8-52 8 20 20 34 34 42z"/>
+      <circle cx="-150" cy="-42" r="7"/>
+      <circle cx="-190" cy="-24" r="5"/>
+      <circle cx="-118" cy="-58" r="4.5"/>
+    </g>
+
+    <!-- fin -->
+    <path d="M-34 14 L -22 52 L 4 14 Z" fill="#a8261f"/>
+
+    <!-- board -->
+    <path d="M-184 0C-150-27 60-23 196 0 60 23 -150 27 -184 0Z" fill="url(#board)"/>
+    <path d="M-184 0C-150-27 60-23 196 0 60 23 -150 27 -184 0Z" fill="none" stroke="#8f1f1d" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M-150 -3C-96-19 44-17 148-2" fill="none" stroke="#ffd9c2" stroke-width="6" stroke-linecap="round" opacity="0.85"/>
+    <path d="M-120 4C-50 16 40 15 108 6" fill="none" stroke="#ffd9c2" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- far wing -->
+    <path d="M-34 -132C-108 -168 -168 -146 -156 -92c8 38 74 30 110 4 16-12 18-38 12-44z" fill="#ded3ba"/>
+    <path d="M-42 -128c-52-22-96-8-100 30" fill="none" stroke="#c8bda4" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- tail feathers -->
+    <path d="M-78 -104c-32-6-62 4-84 26 26 2 44 10 56 22 14-16 24-32 28-48z" fill="#e2d7bf"/>
+
+    <!-- legs -->
+    <g stroke="#e8942e" stroke-width="10" stroke-linecap="round" fill="none">
+      <path d="M-16 -62 L -26 -20 L -40 -10"/>
+      <path d="M16 -58 L 26 -18 L 12 -8"/>
+    </g>
+    <g fill="#e8942e">
+      <path d="M-46 -12c-14 2-24 8-26 14 12 2 26-2 34-8z"/>
+      <path d="M30 -10c14 0 24 6 27 12-12 3-26 0-34-6z"/>
+    </g>
+
+    <!-- body -->
+    <ellipse cx="-6" cy="-98" rx="82" ry="62" fill="url(#bodyFill)" transform="rotate(-7 -6 -98)"/>
+    <path d="M-78 -78c24 22 76 30 122 8 8 22-14 44-52 46-40 2-70-20-70-54z" fill="#cfc4ab" opacity="0.5"/>
+
+    <!-- neck -->
+    <path d="M32 -132C58 -142 62 -168 66 -182" fill="none" stroke="#f3ecdb" stroke-width="46" stroke-linecap="round"/>
+    <path d="M46 -128c18-10 22-28 24-42" fill="none" stroke="#d8cdb4" stroke-width="10" stroke-linecap="round" opacity="0.45"/>
+
+    <!-- head -->
+    <ellipse cx="72" cy="-192" rx="44" ry="40" fill="url(#bodyFill)" transform="rotate(-8 72 -192)"/>
+    <path d="M78 -156c16 8 22 22 12 32-12 10-32 4-36-10z" fill="#cfc4ab" opacity="0.45"/>
+
+    <!-- beak -->
+    <path d="M110 -204 L 268 -190 L 112 -176 Z" fill="#f6a83c"/>
+    <path d="M112 -176 L 266 -190 C 232 -140 152 -138 112 -176 Z" fill="#eb7f3c"/>
+    <path d="M110 -204 L 268 -190 L 116 -184 Z" fill="#ffd08a"/>
+    <circle cx="116" cy="-190" r="3.5" fill="#8f5a20"/>
+
+    <!-- eye -->
+    <circle cx="76" cy="-206" r="9" fill="#f7f3e6"/>
+    <circle cx="78" cy="-206" r="5.5" fill="#26221c"/>
+    <circle cx="80" cy="-208" r="1.8" fill="#ffffff"/>
+
+    <!-- near wing -->
+    <path d="M26 -150C86 -196 152 -190 170 -146c14 34-24 58-78 54-40-3-76-30-66-58z" fill="#fbf7ea"/>
+    <g fill="none" stroke="#d5c9b0" stroke-width="5" stroke-linecap="round">
+      <path d="M60 -156c34-18 72-18 96-4"/>
+      <path d="M62 -134c32-16 68-14 90 0"/>
+      <path d="M68 -114c26-10 54-8 72 2"/>
+    </g>
+  </g>
+
+  <!-- foreground swell -->
+  <path d="M0 546c110-30 196-24 292 2 84 22 168 20 256-4 84-22 172-20 252 6v50H0z" fill="#1a5c8d"/>
+  <path d="M0 546c110-30 196-24 292 2 84 22 168 20 256-4 84-22 172-20 252 6" fill="none" stroke="#eaf7ff" stroke-width="6" stroke-linecap="round" opacity="0.75"/>
+  <g fill="#ffffff" opacity="0.55">
+    <ellipse cx="140" cy="576" rx="52" ry="6"/>
+    <ellipse cx="392" cy="568" rx="66" ry="7"/>
+    <ellipse cx="648" cy="580" rx="48" ry="6"/>
+  </g>
+</svg>

@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="title desc">
+  <title id="title">Pelican riding a surfboard</title>
+  <desc id="desc">A white pelican with orange beak riding a turquoise surfboard on blue-green waves under a yellow sun.</desc>
+
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a0e7fa"/>
+      <stop offset="1" stop-color="#5b83a1"/>
+    </linearGradient>
+    <linearGradient id="seaGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a90b2"/>
+      <stop offset="0.5" stop-color="#2c5a78"/>
+      <stop offset="1" stop-color="#143850"/>
+    </linearGradient>
+    <radialGradient id="sunG" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff9c4"/>
+      <stop offset="0.7" stop-color="#ffd36e"/>
+      <stop offset="1" stop-color="#ffd36e" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="boardGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a90e2"/>
+      <stop offset="0.5" stop-color="#2a6cb8"/>
+      <stop offset="1" stop-color="#1e4a9c"/>
+    </linearGradient>
+    <linearGradient id="pouchGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7c8d0"/>
+      <stop offset="1" stop-color="#e5a5be"/>
+    </linearGradient>
+  </defs>
+
+  <!-- sky -->
+  <rect width="800" height="600" fill="url(#skyGrad)"/>
+
+  <!-- sun -->
+  <circle cx="720" cy="120" r="65" fill="url(#sunG)"/>
+  <circle cx="720" cy="120" r="25" fill="#ffd36e"/>
+
+  <!-- clouds -->
+  <g fill="#ffffff" opacity="0.8">
+    <path d="M80 80c0-18 14-32 32-32 10 0 18 3 25 7 7-16 22-30 37-26 19 0 35 12 35 28H80z"/>
+    <path d="M460 30c0-14 11-25 25-25 6 0 12 2 15 4 3-14 18-24 32-24 19 0 36 15 38 27H460z"/>
+  </g>
+
+  <!-- distant dunes -->
+  <path d="M0 430c60-25 105-28 150-5 40 20 65 30 90 10 30-22 54-28 78-14 25 15 44 30 54 11 10-6 16-18 16-28V330H0z" fill="#8ab4c8" opacity="0.5"/>
+
+  <!-- ocean -->
+  <path d="M0 480c80-15 145 15 225 5 82-10 138-38 220-34 84 4 138 40 222 34 36-3 68-8 88-14v140H0z" fill="url(#seaGrad)"/>
+
+  <!-- wave foam -->
+  <path d="M0 530c90-40 160-42 240-15 82 25 142 38 210 10 64-26 124-38 180-14 40 16 74 24 104 14v30H0z" fill="#5da2c2" opacity="0.6"/>
+
+  <!-- breaking wave -->
+  <path d="M0 560c96-30 172-20 252 18 84 34 158 58 222 54 56-3 104-16 148-34 36-15 64-34 88-54v-30H0z" fill="#2e8cab" opacity="0.7"/>
+
+  <!-- foam streaks -->
+  <g fill="#ffffff" opacity="0.7">
+    <path d="M30 540c12-6 22-14 28-24 6-10 8-22 6-30h-4z"/>
+    <path d="M140 555c8-4 14-10 16-18 2-8 2-16 0-24h-4z"/>
+  </g>
+
+  <!-- surfboard -->
+  <g transform="translate(380 420) rotate(-12)">
+    <!-- board shape -->
+    <path d="M-184 0C-150-27 60-23 190 0 60 23 -150 27 -184 0Z" fill="url(#boardGrad)"/>
+    <path d="M-184 0C-150-27 60-23 190 0 60 23 -150 27 -184 0Z" fill="none" stroke="#a3c6e6" stroke-width="2.5" stroke-linejoin="round"/>
+
+    <!-- fin -->
+    <path d="M-34 14 L -22 52 L 4 14 Z" fill="#2a6cb8"/>
+
+    <!-- board texture lines -->
+    <g stroke="#a3c6e6" stroke-width="1.5" stroke-linecap="round" opacity="0.6">
+      <line x1="-150" y1="-10" x2="-150" y2="10"/>
+      <line x1="-110" y1="-10" x2="-110" y2="10"/>
+      <line x1="-70" y1="-10" x2="-70" y2="10"/>
+      <line x1="-30" y1="-10" x2="-30" y2="10"/>
+      <line x1="10" y1="-10" x2="10" y2="10"/>
+      <line x1="50" y1="-10" x2="50" y2="10"/>
+    </g>
+
+    <!-- spray -->
+    <g fill="#ffffff" opacity="0.9">
+      <path d="M-160 8c-28-6-48-20-56-38 12-24 20-36 28-44z"/>
+      <circle cx="-130" cy="-28" r="5"/>
+      <circle cx="-170" cy="-12" r="4"/>
+    </g>
+  </g>
+
+  <!-- pelican -->
+  <g>
+    <!-- wing (far, back) -->
+    <path d="M-36 -124C-100 -152 -155 -135 -145 -96c22 20 70 16 102 2 14-14 16-34 12-44z" fill="#d0c4b0"/>
+    <g fill="none" stroke="#a8a292" stroke-width="4" stroke-linecap="round">
+      <path d="M-42 -120c36-18 72-18 96 0"/>
+      <path d="M-38 -100c30-12 56-8 72 4"/>
+    </g>
+
+    <!-- tail -->
+    <path d="M-72 -96c-24-8-48 4-62 22 22-22 34-16 46-8 12 8 16 24 20 36z" fill="#e8d8c8"/>
+
+    <!-- legs hanging -->
+    <g stroke="#f5a623" stroke-width="9" stroke-linecap="round" fill="none">
+      <path d="M-28 -48 L -35 -18 L -42 -10"/>
+      <path d="M28 -46 L 35 -16 L 12 -8"/>
+    </g>
+    <g fill="#f5a623">
+      <path d="M-42 -12c-12 2-22 8-24 14 12 2 26-2 34-8z"/>
+      <path d="M30 -10c12 0 22 6 25 12-12 3-24 0-34-6z"/>
+    </g>
+
+    <!-- body -->
+    <ellipse cx="-2" cy="-96" rx="80" ry="62" fill="url(#pouchGrad)" transform="rotate(-6 -2 -96)"/>
+    <path d="M-76 -88c20 16 60 24 100 8 8-22-12 44-48 46-44 2-72-18-72-54z" fill="#cfc4ab" opacity="0.45"/>
+
+    <!-- neck -->
+    <path d="M30 -120C52 -130 58 -150 62 -168" fill="none" stroke="#f3ecdb" stroke-width="42" stroke-linecap="round"/>
+
+    <!-- head -->
+    <ellipse cx="68" cy="-190" rx="44" ry="38" fill="url(#pouchGrad)" transform="rotate(-7 68 -190)"/>
+
+    <!-- beak + pouch -->
+    <path d="M112 -188 L 260 -174 L 112 -160 Z" fill="#f6a83c"/>
+    <path d="M112 -160 L 258 -174 C 220 -140 136 -138 112 -160 Z" fill="#eb7f3c"/>
+    <path d="M112 -160 L 260 -174 L 116 -170 Z" fill="#ffd08a"/>
+    <circle cx="116" cy="-176" r="3.5" fill="#8f5a20"/>
+
+    <!-- eye -->
+    <circle cx="72" cy="-204" r="8" fill="#fff"/>
+    <circle cx="74" cy="-204" r="5" fill="#26221c"/>
+    <circle cx="76" cy="-206" r="2" fill="#fff"/>
+
+    <!-- near wing -->
+    <path d="M24 -134C86 -172 150 -165 168 -126c-12 30-32 54-74 50-28-3-56-2-78 4z" fill="#fbf7ea"/>
+    <g fill="none" stroke="#d5c9b0" stroke-width="4" stroke-linecap="round">
+      <path d="M56 -146c30-14 60-14 82 0"/>
+      <path d="M58 -126c28-12 54-8 70 4"/>
+    </g>
+  </g>
+</svg>
